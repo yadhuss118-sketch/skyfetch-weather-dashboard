@@ -1,14 +1,32 @@
-body {
-    text-align: center;
-    font-family: Arial;
-    background: linear-gradient(to right, purple, blue);
-    color: white;
-    padding: 50px;
+.search-section {
+    margin-bottom: 20px;
 }
 
-#weather-container {
-    background: rgba(255, 255, 255, 0.2);
-    padding: 20px;
-    border-radius: 10px;
-    display: inline-block;
+#cityInput {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+
+#searchBtn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: purple;
+}
+
+#searchBtn:hover {
+    background-color: lightgray;
+}
+
+.error {
+    color: yellow;
+    font-weight: bold;
+}
+
+.loading {
+    font-weight: bold;
 }
