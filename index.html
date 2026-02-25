@@ -21,6 +21,19 @@
         <p id="description"></p>
         <img id="icon" alt="Weather Icon" />
     </div>
+    <label for="city-input">Enter City:</label>
+    <input 
+    id="city-input" 
+    type="text" 
+    placeholder="Enter city name" 
+    title="Enter city name to search weather"
+    />
+    <button id="search-btn">Search</button>
+    <div id="weather-container"></div>
+    <div id="forecast-container"></div>
+
+    <div id="recent-container"></div>
+    <button id="clear-history">Clear History</button>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="app.js"></script>
